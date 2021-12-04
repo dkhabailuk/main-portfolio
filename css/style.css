@@ -5,6 +5,7 @@
 }
 .iam{
     border-radius: 100%;
+    margin-left:30px;
 }
 .header{
     display: flex;
