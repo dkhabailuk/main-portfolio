@@ -1,7 +1,7 @@
 .container{
     width: 1200px;
     margin: 0 auto;
-    outline: 3px solid black;
+    outline: 3px solid pink;
 }
 .iam{
     border-radius: 100%;
