@@ -1,0 +1,21 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    outline: 3px solid black;
+}
+.iam{
+    border-radius: 100%;
+}
+.header{
+    display: flex;
+    height: 100px;
+    width: 1200px;
+}
+.link{
+    list-style-type: none;
+}
+.links{
+    display: flex;
+    width: 800px;
+    height: 100px;
+}
