@@ -9,9 +9,10 @@
 }
 .header{
     display: flex;
-    height: 100px;
+    height: 90px;
     width: 1200px;
     justify-content: space-between;
+    display: fixed;
 }
 .link{
     list-style-type: none;
@@ -22,8 +23,51 @@
     height: 100px;
     justify-content: space-between;
     margin-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .name{
     font-family: Arial, Helvetica, sans-serif;
     align-items: center;
+}
+.main-name{
+    font-family: Open Sans», sans-serif;
+    color: white;
+    margin-left:45px;
+}
+.bio{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.home{
+    background:#272935;
+    padding: 30px;
+    display: flex;
+}
+.who{
+    color: grey;
+    margin-left: 115px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.iam{
+}
+.text-bio{
+    margin-left: 70px;
+}
+.title-bio{
+    color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.bio{
+    color: white;
+    font-size: 17px;
+}
+.interesting{
+    color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.mark{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.social-networks{
+    margin-left: 120px;
 }
