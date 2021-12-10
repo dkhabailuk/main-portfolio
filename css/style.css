@@ -59,7 +59,7 @@
     font-size: 17px;
 }
 .interesting{
-    color: lightgrey;
+    color: #98a6ad;
     font-family: Arial, Helvetica, sans-serif; 
 }
 .mark{
@@ -68,4 +68,45 @@
 }
 .social-networks{
     margin-left: 120px;
+}
+.skills-and-abilities{
+    background-color: #23252f;
+    padding-top: 50px;
+    width: 1200px;
+}
+.title-skills{
+    color: #98a6ad;
+    font-family: "montserrat" ,sans-serif;
+    margin-top: 80px;
+    text-align: center;
+}
+.skills-grid{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 150px 150px 150px;
+    column-gap: 60px;
+    row-gap: 40px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.title-details{
+    color: white;
+    font-family: "montserrat" ,sans-serif;
+}
+.vs-img{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.title-html{
+    margin-left: 10px;
+    color: white;
+    font-family: "montserrat" ,sans-serif;
+}
+.title-css{
+    margin-left: 8px;
+    color: white;
+    font-family: "montserrat" ,sans-serif;
 }
