@@ -211,3 +211,7 @@ footer{
     font-family: "montserrat" ,sans-serif; 
     margin-top: 20px;
 }
+.contact-link{
+    text-decoration: none;
+    color: black;
+}
