@@ -177,12 +177,18 @@
     background-color: #44475a;
     border-radius: 0.25rem;
     border: 1px solid #ced4da;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .input-email{
     background-color: #44475a;
     border-radius: 0.25rem;
     border: 1px solid #ced4da;
     margin-top: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .input-text{
     height: 100px;
@@ -191,6 +197,8 @@
     border: 1px solid #ced4da;
     margin-top: 15px;
     color: white;
+    padding-left: 10px;
+    padding-top: 10px;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 textarea{
