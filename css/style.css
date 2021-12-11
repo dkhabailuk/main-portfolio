@@ -132,3 +132,82 @@
 .block6-img{
     margin-left: 50px;
 }
+.title-contact{
+    color: #98a6ad;
+    font-family: "montserrat" ,sans-serif; 
+}
+.contact{
+    background-color: #23252f;
+    padding-top: 50px;
+    width: 1200px;
+
+}
+.projects{
+    width: 1200px;
+    background:#272935;
+}
+.contact-center{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 150px 400px;
+    column-gap: 170px;
+    row-gap: 30px;
+    padding-bottom: 80px;
+}
+.lines-text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.send{
+    width: 120px;
+    height: 30px;
+    border: 2px solid #795548;
+    border-radius: 0.25rem;
+    background: none;
+    color: #795548;
+    margin-top: 15px;
+}
+.send:hover{
+    background: #795548;
+    color: white;
+}
+.input-name{
+    background-color: #44475a;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+}
+.input-email{
+    background-color: #44475a;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    margin-top: 15px;
+}
+.input-text{
+    height: 100px;
+    background-color: #44475a;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    margin-top: 15px;
+    color: white;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+textarea{
+     overflow: auto;
+    resize: vertical;
+    color: white;
+    font-family: "montserrat" ,sans-serif; 
+}
+footer{
+    width: 1200px;
+    background:  #272935;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer-text{
+    text-align: center;
+    color: white;
+    font-family: "montserrat" ,sans-serif; 
+    margin-top: 20px;
+}
