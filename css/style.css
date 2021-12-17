@@ -1,7 +1,6 @@
 .container{
     width: 1200px;
     margin: 0 auto;
-    outline: 3px solid pink;
 }
 .iam{
     border-radius: 100%;
@@ -13,6 +12,8 @@
     width: 1200px;
     justify-content: space-between;
     background-color: white;
+    position: fixed;
+    margin-top: -8px;
 }
 .link{
     list-style-type: none;
@@ -46,6 +47,9 @@
     color: #98a6ad;
     margin-left: 115px;
     font-family: Arial, Helvetica, sans-serif; 
+}
+main{
+    padding-top: 80px;
 }
 .text-bio{
     margin-left: 70px;
@@ -235,6 +239,9 @@ footer{
 .name-projects{
     color: white;
     font-family: "montserrat" ,sans-serif; 
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
 }
 .about-project{
     color: white;
@@ -248,6 +255,7 @@ footer{
     display: flex;
     width: 450px;
     justify-content: space-between;
+    padding-top: 25px;
 }
 .my-projects{
     padding-top: 100px;
@@ -255,4 +263,7 @@ footer{
 }
 .project-img{
     align-self: center;
+}
+.name-projects:hover{
+   color:#795548;
 }
