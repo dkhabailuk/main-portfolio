@@ -9,10 +9,10 @@
 }
 .header{
     display: flex;
-    height: 90px;
+    height: 80px;
     width: 1200px;
     justify-content: space-between;
-    display: fixed;
+    background-color: white;
 }
 .link{
     list-style-type: none;
@@ -140,11 +140,14 @@
     background-color: #23252f;
     padding-top: 50px;
     width: 1200px;
-
 }
 .projects{
     width: 1200px;
     background:#272935;
+    margin-top: -22px;
+    margin-bottom: -22px;
+    display: flex;
+    justify-content: space-around;
 }
 .contact-center{
     display: flex;
@@ -222,4 +225,34 @@ footer{
 .contact-link{
     text-decoration: none;
     color: black;
+}
+.title-projects{
+    padding-top: 100px;
+    padding-bottom: 10px;
+    color: #98a6ad;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.name-projects{
+    color: white;
+    font-family: "montserrat" ,sans-serif; 
+}
+.about-project{
+    color: white;
+    font-family: "montserrat" ,sans-serif; 
+}
+.name-programmer{
+    color: #98a6ad;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.project-block{
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+}
+.my-projects{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.project-img{
+    align-self: center;
 }
