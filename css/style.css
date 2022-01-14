@@ -178,6 +178,7 @@ main{
     background: none;
     color: #795548;
     margin-top: 15px;
+    cursor: pointer;
 }
 .send:hover{
     background: #795548;
